@@ -18,12 +18,8 @@ export class ProfileComponent {
     }
 
     searchUser(){
-      // Update Username
+      // Update GitHub User Name
       this._githubService.updateUser(this.username);
-
-      this._githubService.getUser().subscribe(user => {
-        this.user = user;
-      })
 
       this._githubService.getUser().subscribe(user => {
         this.user = user;
