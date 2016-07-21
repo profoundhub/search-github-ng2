@@ -6,8 +6,7 @@ import 'rxjs/add/operator/map';
 export class GithubService {
   private username; // Github Username
 
-  constructor(private _http:Http){
-    this.username = 'profoundhub';
+  constructor(private _http:Http){    
   }
 
   // Get User Profile Info
