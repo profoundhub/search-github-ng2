@@ -19,7 +19,7 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Lim",
   "license": "ISC",
   "dependencies": {
     "@angular/common":  "2.0.0-rc.4",
